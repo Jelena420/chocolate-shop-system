@@ -1,10 +1,10 @@
 Chocolate Shop Management System
 
-Overview
+Overview: 
 Chocolate Shop Management System is a desktop client-server application developed as a university software engineering project at the Faculty of Organizational Sciences.
 The application enables management of chocolate products, customers, and orders through a graphical user interface connected to a centralized database. Communication between the client and server is implemented using Java sockets and a custom request-response protocol.
 
-Technologies
+Technologies: 
 Java
 Java Swing
 MySQL
@@ -14,45 +14,45 @@ Multithreading
 NetBeans
 Three-layer architecture
 
-The system follows a three-layer client-server architecture:
+The system follows a three-layer client-server architecture: 
 Client
 Graphical user interface (Java Swing)
 User authentication
 Product, customer, and order management
 Communication with the server through sockets
 
-Server
+Server: 
 Business logic implementation
 Request processing
 Database access
 Concurrent handling of multiple clients using threads
 
-Common
+Common: 
 Shared domain classes
 Request and Response objects
 Communication protocol definitions
 
-Features
+Features: 
 Authentication
 Administrator login
 
-Chocolate Management
+Chocolate Management: 
 Create chocolate products
 Search chocolates
 Update chocolate information
 Delete chocolates
 
-Order Management
+Order Management: 
 Create orders
 Search orders
 Update orders
 Delete orders
 
-Customer Management
+Customer Management: 
 Customer records
 Customer search functionality
 
-Technical Highlights
+Technical Highlights: 
 Client-server communication using sockets
 Multithreaded server architecture
 JDBC database access layer
@@ -60,21 +60,21 @@ Transaction management with commit and rollback support
 Object serialization for network communication
 Dynamic table refresh using background threads
 
-Database Setup
+Database Setup: 
 Create a MySQL database.
 Import the SQL script located in the database folder.
 Update database configuration if necessary.
 Start the server application.
 Launch the client application.
 
-Project Structure
+Project Structure: 
 Client/
 Server/
 Common/
 database/
 docs/
 
-Demo
+Demo: 
 Short video showing the application in action is available in the repository.
 
 Authors
