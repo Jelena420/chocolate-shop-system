@@ -77,5 +77,5 @@ docs/
 Demo: 
 Short video showing the application in action is available in the repository.
 
-Authors
+Authors: 
 Developed as a university project at the Faculty of Organizational Sciences.
